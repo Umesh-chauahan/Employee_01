@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+ 
+}
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  color: white;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+form {
+  margin: 2rem;
+  display: grid;
+  justify-content: center;
+
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+form button {
+  padding: 0.5rem 2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+ 
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+ul li a {
+  margin-left: 1rem;
+  color: blue;
+  text-decoration: none;
+}
+
+.title{
+  text-align: center;
+}
+.name{
+  width: 250px;
+}
+.position{
+  width: 250px;
+}
+.department{
+  width: 250px;
+}
+
+.table{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.add{
+  margin: 20px;
+}
+table {
+  margin: 15px;
+  width: 20%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+.button{
+  margin: 5px;
+}
+.welcome{
+  font-size: 35px;
+  color: rgb(22, 22, 21);
+  margin-top: 90px;
+}
+.dashboard{
+  margin: 20px;
+  font-size: 50px;
+  color: rgb(10, 172, 37);
+  font-weight: 900;
+}
